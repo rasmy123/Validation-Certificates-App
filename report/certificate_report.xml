@@ -1,0 +1,10 @@
+<odoo>
+    <data>
+        <record id="certificate_template" model="ir.actions.report">
+            <field name="name">Certificate License</field>
+            <field name="model">certificates.certificate</field>
+            <field name="report_name">certificates.certificate_template</field>
+            <field name="binding_model_id" ref="model_certificates_certificate"/>
+        </record>
+    </data>
+</odoo>
